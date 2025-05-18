@@ -1,0 +1,73 @@
+/* style for recipe cards to have equal size */
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Footer */
+#copyright {
+  text-align: center;
+}
+
+#copyright-container {
+  margin-bottom: 1rem;
+}
+
+
+* {
+  font-family: 'Gloock', serif;
+}
+
+/* footer*/
+:root {
+  --footer-bg-color: #f4f4f4;
+  --footer-padding: 1rem;
+  --footer-text-color: rgb(0, 0, 0);
+}
+
+footer {
+  background-color: var(--footer-bg-color);
+  padding: var(--footer-padding);
+  color: var(--footer-text-color);
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.login-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.login-form-box,
+.signup-form-box {
+  max-width: 30rem;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.login-form-label {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+img {
+  object-fit: cover;
+}
+
+
+.delete-page {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-img {
+  width: 30rem;
+  height: auto;
+}
