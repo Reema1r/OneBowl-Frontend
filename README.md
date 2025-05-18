@@ -20,7 +20,7 @@ This repository contains the frontend code built in React.  It handles the user 
 
 
 ## Backend Repository
-[OneBowl - Backend Repo ](https://git.generalassemb.ly/reema1radi/oneBowl-project-backend)
+[OneBowl - Backend Repo ](https://github.com/Reema1r/OneBowl-Backend)
 ## Installation
 
 ### 1- Clone frontend repository
